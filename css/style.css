@@ -1,0 +1,497 @@
+/* ==========================DEFAULT======================== */
+
+html, body {
+  font-family: Montserrat, sans-serif;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  line-height: 160%;
+  transition: all .7s;
+}
+
+
+.container {
+  max-width: 1300px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+
+/* ===========================HEADER========================= */
+
+.header {
+  margin: 60px 0 100px 0;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  display: flex;
+  margin-right: 15px;
+}
+
+.header_img {
+  max-width: 45px;
+  max-width: 45px;
+  margin-right: 15px;
+}
+
+.header_img svg {
+  width: 100%;
+  height: 100%;
+}
+
+.header_name {
+  align-self: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header_bottom{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.header_contacts_socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts_follow_item {
+  margin-right: 25px;
+}
+
+.contacts_follow_item:last-child {
+  margin-right: 0;
+}
+
+.contacts-follow-link svg {
+  width: 100%;
+  height: 100%;
+}
+
+.login_to_account::before{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 3px;
+  left: -23px;
+  background: url('/assets/images/user-icon.svg');
+}
+
+.login_to_account{
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+.header_button{
+  transition: all .4s;
+  flex-wrap: nowrap;
+}
+
+.header_button:hover {
+  color: #00ffd0;
+}
+.login{
+  margin-right: 15px;
+}
+
+
+
+/* ============================GAME========================== */
+.game {
+  margin-bottom: 200px;
+}
+
+.game_inner {
+  display: flex;
+  ;
+  justify-content: space-between;
+}
+
+.game_content {
+  margin-right: 50px;
+}
+
+.how_to_play {
+  text-align: left;
+  max-width: 488px;
+}
+
+.game_named {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.95px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.game_rules {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30.48px;
+  margin-bottom: 80px;
+}
+
+.btn_box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-image: none;
+  margin: 0 50px 20px 0;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all .4s;
+  text-wrap: nowrap;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.game_button1 {
+  padding: 15px 40px;
+  border-radius: 5px;
+  background: #041DFF;
+}
+
+.game_button2 {
+  background: #1AD391;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+.game_button3 {
+  background: #FF007A;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+.game_button1:hover {
+  box-shadow: 0 0 25px 0 #041DFF;
+}
+
+.game_button2:hover {
+  box-shadow: 0 0 25px 0 #1AD391;
+}
+
+.game_button3:hover {
+  box-shadow: 0 0 25px 0 #FF007A;
+}
+
+.clicker {
+  display: flex;
+  flex-direction: column;
+}
+
+#money {
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.game_img {
+  display: block;
+  max-width: 527px;
+  max-height: 526px;
+  margin-bottom: 25px;
+}
+
+
+.game_img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.game_img img {
+
+  transition: .3s;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.game_img img:active {
+  transform: scale(1.1);
+  background-color: rgba(255, 215, 0);
+}
+
+/* =======================FOOTER========================== */
+.footer {
+  padding: 100px 0;
+  background-color: #0e0e0e;
+  color: #444444;
+}
+
+.footer_top_inner{
+  margin-bottom: 50px;
+}
+
+.footer_btn_box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_button {
+  transition: all .4s;
+  text-transform: uppercase;
+  margin: 0 15px;
+}
+
+.footer_button:hover {
+  color: #FFF;
+}
+
+#restart {
+  cursor: pointer;
+}
+
+#change_theme {
+  cursor: pointer;
+}
+
+.footer_row_inner{
+  display: flex;
+  justify-content: center;
+}
+
+.footer_form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Footer_input{
+  display: block;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  padding: 10px 80px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.Footer_input1{
+  display: block;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  padding: 10px 80px;
+  width: 100%;
+}
+input:focus-visible {
+  outline: 2px solid rgb(87, 20, 220);
+  border-radius: 3px;
+}
+
+input{
+  margin: 15px 0;
+  font-size: 17px;
+}
+label {font-size: 19px;}
+
+
+
+
+
+/* ==================FOR=CHANGE=THEME===================== */
+
+
+.light {
+  color: #000;
+  background-color: #FFF;
+}
+
+.light_footer {
+  color: #949494;
+}
+
+.light_games_rules {
+  color: #444444;
+}
+
+/* =========================MEDIA========================== */
+/* =========================1300============================= */
+
+@media(max-width: 1300px) {
+  .button {
+    margin-right: 0;
+    flex-grow: 1;
+    flex-basis: 30%;
+    text-align: center;
+  }
+
+  .button:first-child {
+    margin-right: 50px;
+  }
+}
+
+
+/* =========================1050============================= */
+@media (max-width: 1050px) {
+
+  .game_content {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .game_named {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .game_rules {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* =========================970============================= */
+
+@media (max-width: 970px) {
+  .game_named {
+    font-size: 30px;
+    max-width: 350px;
+    margin-bottom: 30px;
+  }
+
+  .game_rules {
+    font-size: 20px;
+    max-width: 350px;
+    margin-bottom: 50px;
+  }
+
+  .btn_box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    margin: 0 0 25px 0;
+    width: 300px;
+    text-align: center;
+    flex-grow: 0;
+    flex-basis: 0;
+  }
+
+  .button:first-child {
+    margin-right: 0;
+  }
+}
+
+/* =========================800============================= */
+
+@media (max-width: 800px) {
+  .game_named {
+    max-width: 250px;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+  }
+
+  .game_rules {
+    font-size: 16px;
+    max-width: 250px;
+    text-align: center;
+  }
+
+  .btn_box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    margin-right: 0;
+    margin-bottom: 25px;
+    width: 230px;
+    text-align: center;
+  }
+}
+
+/* =========================660============================= */
+
+@media(max-width: 660px) {
+  .game_inner {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .game_content {
+    align-items: center;
+    margin: 60px 0;
+  }
+
+  .how_to_play {
+    text-align: center;
+  }
+
+  .game_img {
+    max-width: 300px;
+  }
+
+  .footer_button {
+    font-size: 14px;
+  }
+}
+/* =========================550============================= */
+
+@media(max-width: 550px) {
+  .header_button{
+    font-size: 13px;
+  }
+
+  .footer_btn_box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footer_button {
+    margin: 20px 0;
+  }
+
+}
+
+/* =========================460============================= */
+@media(max-width: 460px) {
+  .header_logo{
+    flex-direction: column;
+  }
+  .header_img{
+    margin-bottom: 15px;
+  }
+  .header_name {
+    font-size: 25px;
+  }
+  .header_contacts_socials{
+    justify-content: space-between;
+  }
+
+  .contacts_follow_item {
+    max-width: 30px;
+    margin: 0;
+  }
+  .login_to_account::before{
+    display: none;
+  }
+  .login_to_account{
+    flex-direction: column;
+    align-items: center;
+  }
+}
